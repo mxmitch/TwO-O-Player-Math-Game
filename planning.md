@@ -23,13 +23,15 @@
 
 ### Game
 
-- stores current player - initialized at 1
+- stores current player - initialized with player 1
 - stores players - array with players
 
 ### Game methods
 
 - initialize game with players and current player
 - calls the question method
+- get answer from user and checks it
+- method to check if current player's score is 0, if 0 then endgame
 - method to give the score
 - method to change to next player’s turn
 
@@ -43,3 +45,4 @@
 
 - method to generate random numbers
 - method to ask the question
+- method to check if answer is correct
